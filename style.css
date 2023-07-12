@@ -51,11 +51,12 @@ a:hover  {
     color: #b340e3;
 }
 
-.main-home {
+.main-container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #b240e315;
 }
 
 .article-main {
@@ -65,59 +66,56 @@ a:hover  {
     flex-flow: column;
     align-items: center;
     gap: 20px;
-    background: #b240e305;
 }
 
 .header-article {
-    width: 90%;
+    width: 60%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.div-logo {
+.div-logo, .photo-entrevistado {
     display: flex;
     justify-content: center;
     padding: 20px;
 }
 
 .titule-article {
-    font-size: 42px;
+    font-size: 40px;
 }
 
 .section-article {
     display: flex;
-    width: 90%;
+    width: 60%;
 }
 
 .section-article p {
-    font-size: 32px;
+    font-size: 18px;
     text-align: justify;
+    line-height: 26px;
 }
 
 /* Tablet BreakPoint */
 @media screen and (min-width: 600px) and (max-width: 900px){
     .menu {
         width: 100%;
-        font-size: 24px;
     }
 
     .article-main {
         width: 100%;
     }
-    
 }
 
 /* Mobile BreakPoint */
 @media screen and (max-width: 599px){
     .navegation, .menu, .header-article {
         width: 100%;
-        font-size: 18px;
-
+        font-size: 20px;
         flex-direction: column;
     }
 
-    .article-main {
+    .article-main, .section-article {
         width: 100%;
     }
     
@@ -130,8 +128,11 @@ a:hover  {
     }
     
     .article-footer, .section-article p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
+    .photo-entrevistado img {
+        width: 100%;
+    }
 }
 
