@@ -136,3 +136,18 @@ a:hover  {
     }
 }
 
+.pesq {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.download a {
+    color: #b340e3;
+    text-align: center;
+}
+
+.download a:hover {
+    color: whitesmoke;
+}
+
+
