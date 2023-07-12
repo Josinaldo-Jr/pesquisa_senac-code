@@ -110,9 +110,11 @@ a:hover  {
 
 /* Mobile BreakPoint */
 @media screen and (max-width: 599px){
-    .navegation, .menu {
+    .navegation, .menu, .header-article {
         width: 100%;
         font-size: 18px;
+
+        flex-direction: column;
     }
 
     .article-main {
@@ -120,15 +122,16 @@ a:hover  {
     }
     
     .titule-article {
-        font-size: 20px;
+        font-size: 18px;
     }
     
     .header-article, .section-article {
         padding: 10px;
     }
     
-    .section-article p {
-        font-size: 16px;
+    .article-footer, .section-article p {
+        font-size: 14px;
     }
+
 }
 
