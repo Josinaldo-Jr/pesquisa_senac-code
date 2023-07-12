@@ -75,7 +75,7 @@ a:hover  {
     align-items: center;
 }
 
-.div-logo, .photo-entrevistado {
+.div-logo, .photo-entrevistado, .photo-equipe {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -109,7 +109,7 @@ a:hover  {
 
 /* Mobile BreakPoint */
 @media screen and (max-width: 599px){
-    .navegation, .menu, .header-article {
+    .navegation, .menu, .header-article, .main-container {
         width: 100%;
         font-size: 20px;
         flex-direction: column;
